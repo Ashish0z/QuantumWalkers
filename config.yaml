@@ -1,0 +1,18 @@
+train_size: 50
+seed: 42
+reduce_features: True
+n_components: 4
+models:
+  dnn:
+    hidden_size: 32
+    epochs: 100
+    learning_rate: 0.01
+  svm:
+    C: 0.1
+  qnn:
+    n_qubits: 4
+    entangling_layers: 3
+    epochs: 30
+    learning_rate: 0.01
+  qsvm:
+    n_qubits: 4

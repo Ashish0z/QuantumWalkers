@@ -1,2 +1,6 @@
 env
 temp_results
+__pycache__
+simulation
+.automan
+results/*.log
