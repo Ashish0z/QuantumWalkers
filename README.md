@@ -2,26 +2,6 @@
 
 **QuantumWalkers** is a benchmarking suite that compares classical and quantum machine learning models—including DNN, SVM, Quantum SVM (Q-SVM), and Quantum Neural Network (QNN)—on synthetic sonar signal classification tasks.
 
-## 📁 Project Structure
-project_root/
-├── automate.py # Batch experiment runner using AutoMan
-├── config.yaml # Configuration file for models and experiments
-├── datasets/
-│ └── synthetic_generator.py # Synthetic sonar signal data generator
-├── experiments/
-│ └── exp1.py # Main script for running one experiment
-├── models/
-│ ├── classical/
-│ │ ├── dnn.py # Deep Neural Network
-│ │ └── svm.py # Classical SVM
-│ └── quantum/
-│ ├── q_svm.py # Quantum SVM using precomputed kernel
-│ └── qnn.py # Quantum Neural Network using PennyLane
-├── results/ # Auto-generated folder to store logs and plots
-├── utils/
-│ ├── logging_utils.py # Timer and logger helpers
-│ └── pca_utils.py # Dimensionality reduction helper for QML
-
 ## 🚀 Getting Started
 
 ### ✅ Prerequisites
